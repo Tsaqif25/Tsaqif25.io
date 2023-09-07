@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&family=Quicksand:wght@500&display=swap');
+.gradient-background {
+    background: linear-gradient(300deg,#088395,#088395,#84c1ca);
+    background-size: 280% 280%;
+    animation: gradient-animation 10s ease infinite;
+}
+
+
+body {
+
+    font-family: ' sans-serif', 'Arial Narrow', Arial,;
+}
+
+.img {
+    justify-content: center;
+    height: 760px;
+}
+
+.pelatihan {
+    /* transform: rotateX(150deg); */
+    background-color: #088395;
+    text-align: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  
+}
+
+.pelatihan:hover {
+    background-color: #210062 ; 
+    transform: translateY(-0.5em);
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo1,.logo2,.logo3 {
+    padding: 5px;
+    transition-duration: 0.5s;
+   border-radius: 100%;
+}
+.logo1:hover {
+    /* border-color : yellow;  */
+    /* box-shadow: 1px 1px 1px 1px rgb(255, 255, 255); */
+    transform: translateY(-0.2em);
+    border-radius: 50%;
+    /* background-color: white; */
+}
+.logo2:hover {
+    /* border-color : yellow;  */
+    /* box-shadow: 1px 1px 1px 1px rgb(255, 255, 255); */
+    transform: translateY(-0.2em);
+    border-radius: 50%;
+    /* background-color: white; */
+}
+
+.logo3:hover {
+    /* border-color : yellow;  */
+    /* box-shadow: 1px 1px 1px 1px rgb(255, 255, 255); */
+    transform: translateY(-0.2em);
+ border-radius: 50%;
+    /* background-color: white; */
+}
+footer {
+    color: white;
+    background-color: #3199ae;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} 
+.pkm {
+    align-items: center;
+}
+.sosial-Media {
+    display: flex;
+    align-items: center;
+}
+.sosial-Media .logo1,.logo2,.logo3 {
+    padding: 5px;
+    transition-duration: 0.5s;
+   border-radius: 100%;
+} 
+
+.sosial-Media .logo1:hover , .logo2:hover , .logo3:hover {
+    transform: translateY(-0.2em);
+    border-radius: 50%;
+color: #34ace0;
+    cursor: pointer;
+}
